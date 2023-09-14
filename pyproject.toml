@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "different"
+version = "0.1.0"
+description = ""
+authors = ["Dan Nelson <danelson@nwi.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
